@@ -1,4 +1,4 @@
-#indef MAIN_H                                                                     
+#ifndef MAIN_H                                                                     
        #define MAIN_H                                                             
        #include <stdio.h>                                                         
        /**                                                                        
@@ -19,4 +19,4 @@
         char *rot13(char *);
 	char *infinite_add(char *n1, char *n2, char *r, int size_r);			   char *add_strings(char *n1, char *n2, char *r, int r_index);
 
-#endif /*MAIN_H*/
+        #endif /*MAIN_H*/
